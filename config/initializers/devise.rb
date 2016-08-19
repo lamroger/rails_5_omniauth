@@ -248,6 +248,7 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   config.omniauth :digitalocean, ENV['DIGITALOCEAN_APP_ID'], ENV['DIGITALOCEAN_APP_SECRET']
+  config.omniauth :twitch,       ENV['TWITCH_APP_ID'], ENV['TWITCH_APP_SECRET']
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
